@@ -1,4 +1,4 @@
-EASY TIME CLOCK
+# EASY TIME CLOCK
 
 Easy Time Clock ini adalah aplikasi yang digunakan untuk mencatat Waktu Pekerja tiba di tempat kerja dan waktu pekerja ketika berhenti bekerja. Dengan menggunakan aplikasi ini, para manajer bisa dengan mudah memonitor para pekerja. Selain itu aplikasi ini juga membantu manajer untuk menghitung gaji kasar yang harus dikeluarkan untuk menggaji para pekerja yang sudah bekerja ditempatnya.
 
