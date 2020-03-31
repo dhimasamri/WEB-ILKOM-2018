@@ -1,20 +1,25 @@
-# Foretells Backend
+# Model.md
 
 Dalam mengembanggkan aplikasi ini, penulis menggunakan Python3 sebagai basis codenya, dan menggunakan Tkinter sebagai Tampilan/User Interfacenya. Selain itu penulis juga menggunakan apache-cassandra.
 
-###### Dalam perancangan ini, menggunakan 5 model:
+Segala perhitungan dan pemrosesan akan dilakukan oleh system TimeClock
 
-##### Admin 
-###### disni datanya berupa ```Id_Number, Username, Password``` 
+Dalam perancangan ini, menggunakan 5 model:
 
-##### Manager 
-###### disini datanya berupa ```ID_number, username, password, Name, department``` 
+Admin 
+Tugas admin disini untuk mengatur akun-akun manager dan melihat report
+disni datanya berupa ```Id_Number, Username, Password``` 
 
-##### Employee
-###### disini datanya berupa ```ID_Number, Name, department, salaryhour, workhour, totalsalary```
+Manager 
+Tugas manager disini untuk mengatur kapan Time Clock berjalan, dan mengatur Employee
+disini datanya berupa ```ID_number, username, password, Name, department``` 
 
-##### Schedule
-###### disini datanya berupa ```ID_Number, Days, Time```
+Employee
+Berisi data tentang employee
+disini datanya berupa ```ID_Number, Name, department, salaryhour, workhour, totalsalary```
 
-##### Report
-###### disini datanya berupa ```ID_Number, Content```
+Schedule
+disini datanya berupa ```ID_Number, Days, Time```
+
+Report
+disini datanya berupa ```ID_Number, Content```
